@@ -1,25 +1,25 @@
 ---
-description: Benutzung von den bereitgestellten Funktionen von TxcWardrobe.
+description: Usage of all of the functions provided by TxcWardrobes
 ---
 
 # Exports & Functions
 
-## 1. Speichern eines Outfits in der Wardrobe <a href="#saveoutfit" id="saveoutfit"></a>
+## 1. Saving your outfits in the Wardrobe <a href="#saveoutfit" id="saveoutfit"></a>
 
-Um ein Outfit über z.B. ein anderes Skript zu speichern, kann client seitig folgender export genutzt werden:
+To save an outfit with another script, this client sided export can be used.
 
 ```lua
 exports['TxcWardrobes']:saveOutfit(name, outfit)
 ```
 
 * name: `string`
-  * Name worunter das Outfit gespeichert werden soll.
+  * Outfit name
 * outfit: `table`
-  * Alle Kleidungsstücke, welche gespeichert werden sollen.
+  * All clothing pieces that are saved in this outfit
 
-### Beispiele
+### Examples
 
-Hiermit würde dann die aktuell getragene Kleidung gespeichert werden.
+This is how you would save the currently worn outfit.
 
 ```lua
 TriggerEvent('skinchanger:getSkin'), function(skin)
@@ -27,7 +27,7 @@ TriggerEvent('skinchanger:getSkin'), function(skin)
 end
 ```
 
-Hiermit würde das angegebene table als Outfit gespeichert werden.
+This is how the provided table would be saved as an outfit.
 
 ```lua
 local table = {
@@ -38,20 +38,20 @@ local table = {
 exports['TxcWardrobes']:saveOutfit('TestOutfit', table)
 ```
 
-## 2. Öffnen der Wardrobe <a href="#openwardrobe" id="openwardrobe"></a>
+## 2. Opening the Wardrobe <a href="#openwardrobe" id="openwardrobe"></a>
 
-Um die Wardrobe extern öffnen zu können, kann folgender export client seitig verwendet werden:
+To open the wardrobe externally, this client sided export can be used.
 
 ```lua
 exports['TxcWardrobes']:openWardrobe(id)
 ```
 
 * id: `string`
-  * Die ID der Wardrobe, welche geöffnet werden soll.
+  * The id of the Wardrobe you want to open
 
-### Beispiel
+### Example
 
-Standardmäßig gibt es die LSPD Wardrobe mit der ID: `main_wardrobe`, so würde es dann aussehen, wenn man die aufrufen möchte.
+The standard wardrobe is the LSPD wardrobe with the id: `main_wardrobe`, this is how you would access it.
 
 ```lua
 exports['TxcWardrobes']:openWardrobe('main_wardrobe')

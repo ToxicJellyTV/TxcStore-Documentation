@@ -4,6 +4,9 @@ description: Here you can find all configs of the script.
 
 # Configurations
 
+## config.lua
+
+{% code lineNumbers="true" %}
 ```lua
 --[[
  ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗ 
@@ -59,7 +62,11 @@ Config.SavedComponents = { -- choose which components of the clothes can be stor
     'bags_1',         'bags_2',
 }
 ```
+{% endcode %}
 
+## wardrobes.lua
+
+{% code lineNumbers="true" %}
 ````lua
 --[[
 ██╗    ██╗ █████╗ ██████╗ ██████╗ ██████╗  ██████╗ ██████╗ ███████╗███████╗
@@ -131,7 +138,11 @@ Wardrobes = {
     }
 }
 ````
+{% endcode %}
 
+## locales.lua
+
+{% code lineNumbers="true" %}
 ```lua
 --[[
 ██╗      ██████╗  ██████╗ █████╗ ██╗     ███████╗███████╗
@@ -240,7 +251,11 @@ Locales = {
     },
 }
 ```
+{% endcode %}
 
+## custom.lua
+
+{% code lineNumbers="true" %}
 ```lua
 --[[
  ██████╗██╗   ██╗███████╗████████╗ ██████╗ ███╗   ███╗
@@ -347,4 +362,4 @@ Config.CustomLocale = function(text, toReplace, replaceWith)
     return string
 end
 ```
-
+{% endcode %}
