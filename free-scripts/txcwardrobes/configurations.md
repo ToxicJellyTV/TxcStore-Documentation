@@ -6,7 +6,7 @@ description: Here you can find all configs of the script.
 
 ## config.lua
 
-{% code lineNumbers="true" %}
+{% code overflow="wrap" %}
 ```lua
 --[[
  ██████╗ ██████╗ ███╗   ██╗███████╗██╗ ██████╗ 
@@ -66,7 +66,6 @@ Config.SavedComponents = { -- choose which components of the clothes can be stor
 
 ## wardrobes.lua
 
-{% code lineNumbers="true" %}
 ````lua
 --[[
 ██╗    ██╗ █████╗ ██████╗ ██████╗ ██████╗  ██████╗ ██████╗ ███████╗███████╗
@@ -138,11 +137,9 @@ Wardrobes = {
     }
 }
 ````
-{% endcode %}
 
 ## locales.lua
 
-{% code lineNumbers="true" %}
 ```lua
 --[[
 ██╗      ██████╗  ██████╗ █████╗ ██╗     ███████╗███████╗
@@ -251,11 +248,9 @@ Locales = {
     },
 }
 ```
-{% endcode %}
 
 ## custom.lua
 
-{% code lineNumbers="true" %}
 ```lua
 --[[
  ██████╗██╗   ██╗███████╗████████╗ ██████╗ ███╗   ███╗
@@ -362,4 +357,3 @@ Config.CustomLocale = function(text, toReplace, replaceWith)
     return string
 end
 ```
-{% endcode %}
