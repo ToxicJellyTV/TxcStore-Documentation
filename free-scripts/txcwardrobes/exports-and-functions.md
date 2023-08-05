@@ -25,7 +25,7 @@ This is how you would save the currently worn outfit.
 
 ```lua
 TriggerEvent('skinchanger:getSkin'), function(skin)
-    exports['TxcWardrobes']:saveOutfit('TestOutfit', skin)
+    exports['TxcWardrobes']:saveOutfit('TestOutfit', skin, false)
 end
 ```
 
@@ -37,7 +37,7 @@ local table = {
     'torso_2' = 1,
 }
 
-exports['TxcWardrobes']:saveOutfit('TestOutfit', table)
+exports['TxcWardrobes']:saveOutfit('TestOutfit', table, false)
 ```
 
 ## 2. Opening the Wardrobe <a href="#openwardrobe" id="openwardrobe"></a>
