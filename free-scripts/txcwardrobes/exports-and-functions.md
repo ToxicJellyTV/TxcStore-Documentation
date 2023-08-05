@@ -16,6 +16,8 @@ exports['TxcWardrobes']:saveOutfit(name, outfit)
   * Outfit name
 * outfit: `table`
   * All clothing pieces that are saved in this outfit
+* notify: `boolean`
+  * True, if you want a notify to be send.
 
 ### Examples
 
