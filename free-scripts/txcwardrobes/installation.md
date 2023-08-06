@@ -16,7 +16,7 @@ To get started, you must first download the script from [`Github`](https://githu
 
 All dependencies are required for the script to work correctly, if available you can download them from the links below.
 
-<table data-full-width="false"><thead><tr><th width="272" align="center">Script</th><th align="center">Download</th></tr></thead><tbody><tr><td align="center"><strong>ex_extended</strong></td><td align="center">-</td></tr><tr><td align="center">skinchanger</td><td align="center">-</td></tr><tr><td align="center">ox_lib</td><td align="center"><a href="https://github.com/overextended/ox_lib/releases">https://github.com/overextended/ox_lib/releases</a></td></tr><tr><td align="center">oxmysql</td><td align="center"><a href="https://github.com/overextended/ox_lib/releases">https://github.com/overextended/oxmysql/releases</a></td></tr></tbody></table>
+<table data-full-width="false"><thead><tr><th width="272" align="center">Script</th><th align="center">Download</th></tr></thead><tbody><tr><td align="center">ex_extended</td><td align="center">-</td></tr><tr><td align="center">skinchanger</td><td align="center">-</td></tr><tr><td align="center">ox_lib</td><td align="center"><a href="https://github.com/overextended/ox_lib/releases">https://github.com/overextended/ox_lib/releases</a></td></tr><tr><td align="center">oxmysql</td><td align="center"><a href="https://github.com/overextended/ox_lib/releases">https://github.com/overextended/oxmysql/releases</a></td></tr></tbody></table>
 
 ## 3. Database installation <a href="#database" id="database"></a>
 
